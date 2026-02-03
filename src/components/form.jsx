@@ -6,7 +6,7 @@ const submitUserData = () =>{
         setTimeout(resolve, 2000);
     }).then (function (){
         return {
-            status: 'success',
+            status: 'success',  
             data: 'User'
         };
     });

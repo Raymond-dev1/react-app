@@ -2,16 +2,21 @@ import Hero  from './components/Hero';
 import Features  from './components/Features';
 import Navbar  from './components/Navbar';
 import Testimonials  from './components/Testimonials';
-
+import Count from './components/count'
+import Form from './components/form'
+import Pairs from './components/pairs'
 
 
  export default function App(){
   return(
     <div className= "min-h-screen bg-slate-950 text-white overflow-hidden">
-    <Hero />
+    <Count />
+    <Form />
+    <Pairs />
+    {/* <Hero />
     <Features />
     <Navbar />
-    <Testimonials />
+    <Testimonials />   */}
      </div> 
   );
 }
